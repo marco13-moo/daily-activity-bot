@@ -1,0 +1,136 @@
+name: Organic Daily GitHub Activity
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # daily at 06:17 UTC
+  workflow_dispatch:
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_ACTIVITY_TOKEN }}
+
+      - name: Set date
+        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Prepare files
+        run: |
+          FILES=("activity-log.md" "notes.md" "docs.md" "readme-updates.md")
+          for f in "${FILES[@]}"; do
+            touch "$f"
+          done
+          echo "FILES=${FILES[*]}" >> $GITHUB_ENV
+
+      - name: Pick random file
+        run: |
+          IFS=' ' read -r -a FILE_ARRAY <<< "$FILES"
+          FILE_INDEX=$((RANDOM % ${#FILE_ARRAY[@]}))
+          echo "TARGET_FILE=${FILE_ARRAY[$FILE_INDEX]}" >> $GITHUB_ENV
+
+      - name: Pick random message
+        run: |
+          MESSAGES=(
+            "Refactored code comments for clarity"
+            "Updated README section about usage"
+            "Fixed typos in documentation"
+            "Added small sample snippet for clarity"
+            "Reorganized headings in markdown"
+            "Improved formatting of bullet lists"
+            "Clarified variable names in examples"
+            "Added usage tip in README"
+            "Fixed broken link in docs"
+            "Added explanation for config option"
+            "Minor style tweaks in markdown"
+            "Updated table of contents"
+            "Improved code snippet readability"
+            "Corrected spelling errors"
+            "Added link to related resource"
+            "Added new example section"
+            "Fixed indentation issues"
+            "Clarified instructions for setup"
+            "Added note about edge cases"
+            "Improved wording in introduction"
+            "Updated FAQ section"
+            "Fixed small formatting bugs"
+            "Added comment about best practices"
+            "Updated examples for clarity"
+            "Fixed outdated command in docs"
+            "Added explanation for parameter"
+            "Updated section headers"
+            "Refined wording in description"
+            "Added minor tips for users"
+            "Fixed minor typo in README"
+            "Enhanced clarity of instructions"
+            "Updated sample output"
+            "Improved example formatting"
+            "Added note on limitations"
+            "Fixed table formatting"
+            "Added emoji to headings for clarity"
+            "Clarified code snippet comments"
+            "Fixed minor grammar issues"
+            "Improved list formatting"
+            "Added example usage note"
+            "Refined wording in tutorial"
+            "Updated example outputs"
+            "Fixed link to reference"
+            "Added clarification to instructions"
+            "Updated notes for beginners"
+            "Improved heading hierarchy"
+            "Fixed small markdown issues"
+            "Added short tip for users"
+            "Refined wording in explanation"
+          )
+          INDEX=$((RANDOM % ${#MESSAGES[@]}))
+          echo "RANDOM_MSG=${MESSAGES[$INDEX]}" >> $GITHUB_ENV
+
+      - name: Update target file
+        run: |
+          echo "- $DATE: $RANDOM_MSG" >> "$TARGET_FILE"
+
+      - name: Commit changes
+        run: |
+          git checkout -b daily-$DATE
+          git config user.name "github-activity-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add "$TARGET_FILE"
+          git commit -m "Daily update: $RANDOM_MSG"
+          git push origin daily-$DATE
+
+      - name: Create PR
+        env:
+          GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
+        run: |
+          PR_URL=$(gh pr create \
+            --title "Daily update: $RANDOM_MSG" \
+            --body "Automated daily PR for contribution graph.\n\n$RANDOM_MSG" \
+            --base main \
+            --head daily-$DATE)
+          PR_NUMBER=$(basename "$PR_URL")
+          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+
+      - name: Merge PR automatically
+        env:
+          GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
+        run: |
+          gh pr merge $PR_NUMBER --merge --delete-branch
+
+      - name: Create Issue
+        env:
+          GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
+        run: |
+          ISSUE_URL=$(gh issue create \
+            --title "Daily log: $RANDOM_MSG" \
+            --body "Automated issue to simulate daily contributions.\n\n$RANDOM_MSG")
+          ISSUE_NUMBER=$(basename "$ISSUE_URL")
+          echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_ENV
+
+      - name: Close Issue automatically
+        env:
+          GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
+        run: |
+          gh issue close $ISSUE_NUMBER --comment "Completed automatically."
