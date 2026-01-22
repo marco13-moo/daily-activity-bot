@@ -3,3 +3,4 @@
 - 2026-01-11: Added explanation for config option
 - 2026-01-12: Added note on limitations
 - 2026-01-15: Refined wording in explanation
+- 2026-01-22: Refined wording in explanation
