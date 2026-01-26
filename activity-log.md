@@ -3,3 +3,4 @@
 - 2026-01-13: Updated examples for clarity
 - 2026-01-19: Fixed typos in documentation
 - 2026-01-25: Improved heading hierarchy
+- 2026-01-26: Improved formatting of bullet lists
