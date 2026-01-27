@@ -4,3 +4,4 @@
 - 2026-01-17: Fixed broken link in docs
 - 2026-01-21: Improved code snippet readability
 - 2026-01-23: Updated example outputs
+- 2026-01-27: Clarified code snippet comments
