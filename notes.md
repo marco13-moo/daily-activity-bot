@@ -5,3 +5,4 @@
 - 2026-01-18: Added comment about best practices
 - 2026-01-20: Improved list formatting
 - 2026-01-24: Corrected spelling errors
+- 2026-01-28: Added note on limitations
