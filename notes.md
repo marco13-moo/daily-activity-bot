@@ -6,3 +6,4 @@
 - 2026-01-20: Improved list formatting
 - 2026-01-24: Corrected spelling errors
 - 2026-01-28: Added note on limitations
+- 2026-01-29: Added comment about best practices
