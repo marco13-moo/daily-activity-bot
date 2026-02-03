@@ -6,3 +6,4 @@
 - 2026-01-26: Improved formatting of bullet lists
 - 2026-01-30: Fixed typos in documentation
 - 2026-02-01: Improved list formatting
+- 2026-02-03: Corrected spelling errors
