@@ -7,3 +7,4 @@
 - 2026-01-27: Clarified code snippet comments
 - 2026-01-31: Added comment about best practices
 - 2026-02-02: Refined wording in explanation
+- 2026-02-04: Added clarification to instructions
