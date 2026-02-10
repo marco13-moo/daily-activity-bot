@@ -7,3 +7,4 @@
 - 2026-01-30: Fixed typos in documentation
 - 2026-02-01: Improved list formatting
 - 2026-02-03: Corrected spelling errors
+- 2026-02-10: Fixed minor typo in README
