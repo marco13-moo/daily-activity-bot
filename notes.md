@@ -9,3 +9,4 @@
 - 2026-01-29: Added comment about best practices
 - 2026-02-06: Updated example outputs
 - 2026-02-09: Updated table of contents
+- 2026-02-13: Added short tip for users
