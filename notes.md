@@ -10,3 +10,4 @@
 - 2026-02-06: Updated example outputs
 - 2026-02-09: Updated table of contents
 - 2026-02-13: Added short tip for users
+- 2026-02-14: Clarified variable names in examples
