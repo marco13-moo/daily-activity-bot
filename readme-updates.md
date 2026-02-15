@@ -5,3 +5,4 @@
 - 2026-01-15: Refined wording in explanation
 - 2026-02-07: Refactored code comments for clarity
 - 2026-02-08: Improved code snippet readability
+- 2026-02-15: Updated examples for clarity
