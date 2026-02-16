@@ -9,3 +9,4 @@
 - 2026-02-03: Corrected spelling errors
 - 2026-02-10: Fixed minor typo in README
 - 2026-02-12: Improved code snippet readability
+- 2026-02-16: Fixed broken link in docs
