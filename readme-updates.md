@@ -8,3 +8,4 @@
 - 2026-02-15: Updated examples for clarity
 - 2026-02-17: Added short tip for users
 - 2026-02-20: Added explanation for parameter
+- 2026-02-21: Added usage tip in README
