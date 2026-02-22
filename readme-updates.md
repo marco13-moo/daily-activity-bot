@@ -9,3 +9,4 @@
 - 2026-02-17: Added short tip for users
 - 2026-02-20: Added explanation for parameter
 - 2026-02-21: Added usage tip in README
+- 2026-02-22: Fixed outdated command in docs
