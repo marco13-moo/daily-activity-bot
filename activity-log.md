@@ -11,3 +11,4 @@
 - 2026-02-12: Improved code snippet readability
 - 2026-02-16: Fixed broken link in docs
 - 2026-02-24: Added usage tip in README
+- 2026-02-25: Added emoji to headings for clarity
