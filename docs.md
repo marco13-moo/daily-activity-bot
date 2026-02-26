@@ -11,3 +11,4 @@
 - 2026-02-05: Fixed minor typo in README
 - 2026-02-11: Fixed indentation issues
 - 2026-02-23: Added minor tips for users
+- 2026-02-26: Added link to related resource
