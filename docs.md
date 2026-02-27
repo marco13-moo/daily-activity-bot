@@ -12,3 +12,4 @@
 - 2026-02-11: Fixed indentation issues
 - 2026-02-23: Added minor tips for users
 - 2026-02-26: Added link to related resource
+- 2026-02-27: Updated table of contents
