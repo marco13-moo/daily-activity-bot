@@ -13,3 +13,4 @@
 - 2026-02-24: Added usage tip in README
 - 2026-02-25: Added emoji to headings for clarity
 - 2026-03-01: Added explanation for config option
+- 2026-03-02: Added clarification to instructions
