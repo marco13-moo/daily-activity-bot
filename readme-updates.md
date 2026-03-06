@@ -10,3 +10,4 @@
 - 2026-02-20: Added explanation for parameter
 - 2026-02-21: Added usage tip in README
 - 2026-02-22: Fixed outdated command in docs
+- 2026-03-06: Clarified instructions for setup
