@@ -14,3 +14,4 @@
 - 2026-02-18: Added minor tips for users
 - 2026-02-19: Added usage tip in README
 - 2026-03-05: Refined wording in tutorial
+- 2026-03-07: Improved list formatting
