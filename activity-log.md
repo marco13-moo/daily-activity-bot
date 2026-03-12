@@ -16,3 +16,4 @@
 - 2026-03-02: Added clarification to instructions
 - 2026-03-03: Added explanation for parameter
 - 2026-03-09: Added short tip for users
+- 2026-03-12: Improved example formatting
