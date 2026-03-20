@@ -17,3 +17,4 @@
 - 2026-03-04: Updated notes for beginners
 - 2026-03-08: Added small sample snippet for clarity
 - 2026-03-19: Updated table of contents
+- 2026-03-20: Refined wording in explanation
