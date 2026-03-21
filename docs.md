@@ -18,3 +18,4 @@
 - 2026-03-08: Added small sample snippet for clarity
 - 2026-03-19: Updated table of contents
 - 2026-03-20: Refined wording in explanation
+- 2026-03-21: Improved formatting of bullet lists
