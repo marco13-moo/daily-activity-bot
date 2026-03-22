@@ -18,3 +18,4 @@
 - 2026-03-11: Added short tip for users
 - 2026-03-16: Updated sample output
 - 2026-03-18: Fixed small formatting bugs
+- 2026-03-22: Corrected spelling errors
