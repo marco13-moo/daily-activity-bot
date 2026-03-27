@@ -19,3 +19,4 @@
 - 2026-03-16: Updated sample output
 - 2026-03-18: Fixed small formatting bugs
 - 2026-03-22: Corrected spelling errors
+- 2026-03-27: Fixed typos in documentation
