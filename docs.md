@@ -21,3 +21,4 @@
 - 2026-03-21: Improved formatting of bullet lists
 - 2026-03-23: Added clarification to instructions
 - 2026-03-24: Added short tip for users
+- 2026-03-29: Refined wording in tutorial
