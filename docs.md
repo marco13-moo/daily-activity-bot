@@ -22,3 +22,4 @@
 - 2026-03-23: Added clarification to instructions
 - 2026-03-24: Added short tip for users
 - 2026-03-29: Refined wording in tutorial
+- 2026-03-30: Updated table of contents
