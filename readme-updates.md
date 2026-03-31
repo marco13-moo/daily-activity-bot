@@ -16,3 +16,4 @@
 - 2026-03-14: Updated example outputs
 - 2026-03-17: Added emoji to headings for clarity
 - 2026-03-26: Clarified code snippet comments
+- 2026-03-31: Minor style tweaks in markdown
