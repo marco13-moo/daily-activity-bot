@@ -18,3 +18,4 @@
 - 2026-03-26: Clarified code snippet comments
 - 2026-03-31: Minor style tweaks in markdown
 - 2026-04-05: Fixed typos in documentation
+- 2026-04-06: Fixed outdated command in docs
