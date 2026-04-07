@@ -20,3 +20,4 @@
 - 2026-03-18: Fixed small formatting bugs
 - 2026-03-22: Corrected spelling errors
 - 2026-03-27: Fixed typos in documentation
+- 2026-04-07: Added link to related resource
