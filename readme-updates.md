@@ -19,3 +19,4 @@
 - 2026-03-31: Minor style tweaks in markdown
 - 2026-04-05: Fixed typos in documentation
 - 2026-04-09: Reorganized headings in markdown
+- 2026-04-12: Updated FAQ section
