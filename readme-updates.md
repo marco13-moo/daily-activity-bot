@@ -22,3 +22,4 @@
 - 2026-04-12: Updated FAQ section
 - 2026-04-13: Fixed link to reference
 - 2026-04-14: Updated section headers
+- 2026-04-16: Improved example formatting
