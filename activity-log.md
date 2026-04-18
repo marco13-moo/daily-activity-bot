@@ -24,3 +24,4 @@
 - 2026-04-04: Updated table of contents
 - 2026-04-08: Fixed minor grammar issues
 - 2026-04-17: Improved wording in introduction
+- 2026-04-18: Updated FAQ section
