@@ -27,3 +27,4 @@
 - 2026-04-10: Updated sample output
 - 2026-04-11: Updated sample output
 - 2026-04-15: Refined wording in explanation
+- 2026-04-21: Added small sample snippet for clarity
