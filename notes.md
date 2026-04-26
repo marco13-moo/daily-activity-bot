@@ -22,3 +22,4 @@
 - 2026-03-27: Fixed typos in documentation
 - 2026-04-07: Added link to related resource
 - 2026-04-22: Added link to related resource
+- 2026-04-26: Improved wording in introduction
