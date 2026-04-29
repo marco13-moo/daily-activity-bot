@@ -26,3 +26,4 @@
 - 2026-04-17: Improved wording in introduction
 - 2026-04-18: Updated FAQ section
 - 2026-04-25: Added small sample snippet for clarity
+- 2026-04-29: Fixed broken link in docs
