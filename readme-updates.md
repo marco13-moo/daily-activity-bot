@@ -29,3 +29,4 @@
 - 2026-04-28: Refactored code comments for clarity
 - 2026-04-30: Clarified code snippet comments
 - 2026-05-01: Corrected spelling errors
+- 2026-05-05: Updated FAQ section
