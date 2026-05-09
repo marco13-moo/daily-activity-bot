@@ -25,3 +25,4 @@
 - 2026-04-26: Improved wording in introduction
 - 2026-05-03: Added note about edge cases
 - 2026-05-04: Minor style tweaks in markdown
+- 2026-05-09: Added example usage note
