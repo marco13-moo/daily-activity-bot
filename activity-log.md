@@ -28,3 +28,4 @@
 - 2026-04-25: Added small sample snippet for clarity
 - 2026-04-29: Fixed broken link in docs
 - 2026-05-08: Fixed link to reference
+- 2026-05-10: Updated FAQ section
