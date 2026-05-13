@@ -27,3 +27,4 @@
 - 2026-05-04: Minor style tweaks in markdown
 - 2026-05-09: Added example usage note
 - 2026-05-12: Added note about edge cases
+- 2026-05-13: Added note on limitations
