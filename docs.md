@@ -33,3 +33,4 @@
 - 2026-05-02: Added emoji to headings for clarity
 - 2026-05-06: Added note about edge cases
 - 2026-05-11: Improved example formatting
+- 2026-05-14: Improved wording in introduction
