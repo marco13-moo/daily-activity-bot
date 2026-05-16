@@ -29,3 +29,4 @@
 - 2026-04-29: Fixed broken link in docs
 - 2026-05-08: Fixed link to reference
 - 2026-05-10: Updated FAQ section
+- 2026-05-16: Added link to related resource
