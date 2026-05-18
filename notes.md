@@ -29,3 +29,4 @@
 - 2026-05-12: Added note about edge cases
 - 2026-05-13: Added note on limitations
 - 2026-05-17: Fixed minor typo in README
+- 2026-05-18: Updated table of contents
