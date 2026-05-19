@@ -35,3 +35,4 @@
 - 2026-05-11: Improved example formatting
 - 2026-05-14: Improved wording in introduction
 - 2026-05-15: Improved code snippet readability
+- 2026-05-19: Updated example outputs
