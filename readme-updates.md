@@ -31,3 +31,4 @@
 - 2026-05-01: Corrected spelling errors
 - 2026-05-05: Updated FAQ section
 - 2026-05-07: Improved list formatting
+- 2026-05-20: Fixed outdated command in docs
