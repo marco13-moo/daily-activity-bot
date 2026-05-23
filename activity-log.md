@@ -30,3 +30,4 @@
 - 2026-05-08: Fixed link to reference
 - 2026-05-10: Updated FAQ section
 - 2026-05-16: Added link to related resource
+- 2026-05-23: Fixed outdated command in docs
