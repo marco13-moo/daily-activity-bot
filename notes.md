@@ -31,3 +31,4 @@
 - 2026-05-17: Fixed minor typo in README
 - 2026-05-18: Updated table of contents
 - 2026-05-22: Updated sample output
+- 2026-05-25: Added explanation for parameter
