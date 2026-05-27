@@ -33,3 +33,4 @@
 - 2026-05-07: Improved list formatting
 - 2026-05-20: Fixed outdated command in docs
 - 2026-05-21: Added short tip for users
+- 2026-05-27: Enhanced clarity of instructions
