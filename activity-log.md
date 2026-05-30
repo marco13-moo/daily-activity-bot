@@ -32,3 +32,4 @@
 - 2026-05-16: Added link to related resource
 - 2026-05-23: Fixed outdated command in docs
 - 2026-05-24: Fixed link to reference
+- 2026-05-30: Improved list formatting
