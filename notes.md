@@ -33,3 +33,4 @@
 - 2026-05-22: Updated sample output
 - 2026-05-25: Added explanation for parameter
 - 2026-05-28: Updated FAQ section
+- 2026-06-01: Updated notes for beginners
