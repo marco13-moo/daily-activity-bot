@@ -39,3 +39,4 @@
 - 2026-05-26: Added usage tip in README
 - 2026-05-29: Added note about edge cases
 - 2026-06-02: Added note about edge cases
+- 2026-06-03: Fixed typos in documentation
