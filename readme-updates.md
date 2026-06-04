@@ -34,3 +34,4 @@
 - 2026-05-20: Fixed outdated command in docs
 - 2026-05-21: Added short tip for users
 - 2026-05-27: Enhanced clarity of instructions
+- 2026-06-04: Reorganized headings in markdown
