@@ -34,3 +34,4 @@
 - 2026-05-24: Fixed link to reference
 - 2026-05-30: Improved list formatting
 - 2026-05-31: Fixed small markdown issues
+- 2026-06-08: Refined wording in tutorial
