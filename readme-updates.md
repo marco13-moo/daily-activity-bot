@@ -38,3 +38,4 @@
 - 2026-06-06: Added small sample snippet for clarity
 - 2026-06-07: Fixed link to reference
 - 2026-06-09: Clarified instructions for setup
+- 2026-06-12: Refined wording in tutorial
