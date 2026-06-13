@@ -35,3 +35,4 @@
 - 2026-05-28: Updated FAQ section
 - 2026-06-01: Updated notes for beginners
 - 2026-06-10: Added explanation for config option
+- 2026-06-13: Refined wording in description
