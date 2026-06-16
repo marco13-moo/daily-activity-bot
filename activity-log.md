@@ -36,3 +36,4 @@
 - 2026-05-31: Fixed small markdown issues
 - 2026-06-08: Refined wording in tutorial
 - 2026-06-14: Reorganized headings in markdown
+- 2026-06-16: Added small sample snippet for clarity
