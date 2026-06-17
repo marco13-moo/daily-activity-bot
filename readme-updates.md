@@ -40,3 +40,4 @@
 - 2026-06-09: Clarified instructions for setup
 - 2026-06-12: Refined wording in tutorial
 - 2026-06-15: Refined wording in description
+- 2026-06-17: Fixed small markdown issues
