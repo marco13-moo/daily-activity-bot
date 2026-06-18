@@ -36,3 +36,4 @@
 - 2026-06-01: Updated notes for beginners
 - 2026-06-10: Added explanation for config option
 - 2026-06-13: Refined wording in description
+- 2026-06-18: Added comment about best practices
