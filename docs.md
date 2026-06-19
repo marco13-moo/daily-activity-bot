@@ -42,3 +42,4 @@
 - 2026-06-03: Fixed typos in documentation
 - 2026-06-05: Clarified instructions for setup
 - 2026-06-11: Refactored code comments for clarity
+- 2026-06-19: Fixed link to reference
