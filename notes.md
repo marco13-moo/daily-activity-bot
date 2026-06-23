@@ -37,3 +37,4 @@
 - 2026-06-10: Added explanation for config option
 - 2026-06-13: Refined wording in description
 - 2026-06-18: Added comment about best practices
+- 2026-06-23: Fixed table formatting
