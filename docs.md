@@ -45,3 +45,4 @@
 - 2026-06-19: Fixed link to reference
 - 2026-06-22: Improved example formatting
 - 2026-06-24: Clarified variable names in examples
+- 2026-06-25: Improved formatting of bullet lists
