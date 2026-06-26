@@ -38,3 +38,4 @@
 - 2026-06-13: Refined wording in description
 - 2026-06-18: Added comment about best practices
 - 2026-06-23: Fixed table formatting
+- 2026-06-26: Fixed outdated command in docs
