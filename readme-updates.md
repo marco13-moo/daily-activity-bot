@@ -42,3 +42,4 @@
 - 2026-06-15: Refined wording in description
 - 2026-06-17: Fixed small markdown issues
 - 2026-06-21: Added explanation for parameter
+- 2026-06-28: Updated examples for clarity
