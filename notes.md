@@ -39,3 +39,4 @@
 - 2026-06-18: Added comment about best practices
 - 2026-06-23: Fixed table formatting
 - 2026-06-26: Fixed outdated command in docs
+- 2026-06-29: Reorganized headings in markdown
