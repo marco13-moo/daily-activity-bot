@@ -48,3 +48,4 @@
 - 2026-06-25: Improved formatting of bullet lists
 - 2026-06-27: Fixed indentation issues
 - 2026-06-30: Fixed table formatting
+- 2026-07-01: Clarified variable names in examples
