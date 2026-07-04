@@ -38,3 +38,4 @@
 - 2026-06-14: Reorganized headings in markdown
 - 2026-06-16: Added small sample snippet for clarity
 - 2026-06-20: Fixed minor typo in README
+- 2026-07-04: Updated table of contents
