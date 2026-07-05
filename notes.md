@@ -41,3 +41,4 @@
 - 2026-06-26: Fixed outdated command in docs
 - 2026-06-29: Reorganized headings in markdown
 - 2026-07-03: Fixed small markdown issues
+- 2026-07-05: Added usage tip in README
