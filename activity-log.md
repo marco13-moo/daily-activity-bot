@@ -39,3 +39,4 @@
 - 2026-06-16: Added small sample snippet for clarity
 - 2026-06-20: Fixed minor typo in README
 - 2026-07-04: Updated table of contents
+- 2026-07-06: Fixed broken link in docs
