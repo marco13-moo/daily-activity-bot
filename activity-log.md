@@ -41,3 +41,4 @@
 - 2026-07-04: Updated table of contents
 - 2026-07-06: Fixed broken link in docs
 - 2026-07-07: Added short tip for users
+- 2026-07-09: Added small sample snippet for clarity
