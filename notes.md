@@ -43,3 +43,4 @@
 - 2026-07-03: Fixed small markdown issues
 - 2026-07-05: Added usage tip in README
 - 2026-07-08: Updated examples for clarity
+- 2026-07-14: Updated FAQ section
