@@ -45,3 +45,4 @@
 - 2026-07-08: Updated examples for clarity
 - 2026-07-14: Updated FAQ section
 - 2026-07-15: Clarified instructions for setup
+- 2026-07-16: Refined wording in tutorial
