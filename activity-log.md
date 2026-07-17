@@ -43,3 +43,4 @@
 - 2026-07-07: Added short tip for users
 - 2026-07-09: Added small sample snippet for clarity
 - 2026-07-11: Clarified code snippet comments
+- 2026-07-17: Added usage tip in README
