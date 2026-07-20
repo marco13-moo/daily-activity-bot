@@ -45,3 +45,4 @@
 - 2026-06-28: Updated examples for clarity
 - 2026-07-12: Fixed indentation issues
 - 2026-07-13: Added note on limitations
+- 2026-07-20: Added note about edge cases
