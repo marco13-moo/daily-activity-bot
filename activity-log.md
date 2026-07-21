@@ -45,3 +45,4 @@
 - 2026-07-11: Clarified code snippet comments
 - 2026-07-17: Added usage tip in README
 - 2026-07-18: Updated FAQ section
+- 2026-07-21: Refined wording in tutorial
