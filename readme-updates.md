@@ -46,3 +46,4 @@
 - 2026-07-12: Fixed indentation issues
 - 2026-07-13: Added note on limitations
 - 2026-07-20: Added note about edge cases
+- 2026-07-22: Clarified instructions for setup
