@@ -52,3 +52,4 @@
 - 2026-07-02: Updated example outputs
 - 2026-07-10: Fixed small markdown issues
 - 2026-07-19: Added example usage note
+- 2026-07-25: Added small sample snippet for clarity
