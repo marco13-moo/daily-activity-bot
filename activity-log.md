@@ -48,3 +48,4 @@
 - 2026-07-21: Refined wording in tutorial
 - 2026-07-23: Added usage tip in README
 - 2026-07-26: Added short tip for users
+- 2026-07-27: Updated examples for clarity
