@@ -2,135 +2,107 @@ name: Organic Daily GitHub Activity
 
 on:
   schedule:
-    - cron: "17 6 * * *"   # daily at 06:17 UTC
+    - cron: "0 0 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 jobs:
-  activity:
+  select-window:
     runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.pick.outputs.run }}
+      delay: ${{ steps.pick.outputs.delay }}
+    steps:
+      - id: pick
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "delay=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          case "${{ github.event.schedule }}" in
+            "0 0 * * *") SLOT=0 ;;
+            "0 6 * * *") SLOT=1 ;;
+            "0 12 * * *") SLOT=2 ;;
+            "0 18 * * *") SLOT=3 ;;
+          esac
+
+          DAY_SEED=$(date -u +%Y%j)
+          CHOSEN_SLOT=$((10#$DAY_SEED % 4))
+          if [ "$SLOT" -eq "$CHOSEN_SLOT" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "delay=$((RANDOM % 46))" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "delay=0" >> "$GITHUB_OUTPUT"
+          fi
+
+  activity:
+    needs: select-window
+    if: needs.select-window.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
 
     steps:
+      - name: Wait for randomized start
+        run: sleep "$((${{ needs.select-window.outputs.delay }} * 60))"
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_ACTIVITY_TOKEN }}
+          fetch-depth: 0
 
-      - name: Set date
-        run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
-
-      - name: Prepare files
+      - name: Create randomized commits
+        shell: bash
         run: |
+          DATE=$(date -u +'%Y-%m-%d')
+          BRANCH="daily-$DATE"
           FILES=("activity-log.md" "notes.md" "docs.md" "readme-updates.md")
-          for f in "${FILES[@]}"; do
-            touch "$f"
-          done
-          echo "FILES=${FILES[*]}" >> $GITHUB_ENV
-
-      - name: Pick random file
-        run: |
-          IFS=' ' read -r -a FILE_ARRAY <<< "$FILES"
-          FILE_INDEX=$((RANDOM % ${#FILE_ARRAY[@]}))
-          echo "TARGET_FILE=${FILE_ARRAY[$FILE_INDEX]}" >> $GITHUB_ENV
-
-      - name: Pick random message
-        run: |
           MESSAGES=(
-            "Refactored code comments for clarity"
-            "Updated README section about usage"
-            "Fixed typos in documentation"
-            "Added small sample snippet for clarity"
-            "Reorganized headings in markdown"
-            "Improved formatting of bullet lists"
-            "Clarified variable names in examples"
-            "Added usage tip in README"
-            "Fixed broken link in docs"
-            "Added explanation for config option"
-            "Minor style tweaks in markdown"
-            "Updated table of contents"
-            "Improved code snippet readability"
-            "Corrected spelling errors"
-            "Added link to related resource"
-            "Added new example section"
-            "Fixed indentation issues"
-            "Clarified instructions for setup"
-            "Added note about edge cases"
-            "Improved wording in introduction"
-            "Updated FAQ section"
-            "Fixed small formatting bugs"
-            "Added comment about best practices"
-            "Updated examples for clarity"
-            "Fixed outdated command in docs"
-            "Added explanation for parameter"
-            "Updated section headers"
-            "Refined wording in description"
-            "Added minor tips for users"
-            "Fixed minor typo in README"
-            "Enhanced clarity of instructions"
-            "Updated sample output"
+            "Refactored comments for clarity"
+            "Updated usage documentation"
+            "Fixed documentation typos"
             "Improved example formatting"
-            "Added note on limitations"
-            "Fixed table formatting"
-            "Added emoji to headings for clarity"
-            "Clarified code snippet comments"
-            "Fixed minor grammar issues"
-            "Improved list formatting"
-            "Added example usage note"
-            "Refined wording in tutorial"
-            "Updated example outputs"
-            "Fixed link to reference"
-            "Added clarification to instructions"
-            "Updated notes for beginners"
-            "Improved heading hierarchy"
-            "Fixed small markdown issues"
-            "Added short tip for users"
-            "Refined wording in explanation"
+            "Clarified setup instructions"
+            "Updated reference links"
+            "Added configuration notes"
+            "Improved heading structure"
           )
-          INDEX=$((RANDOM % ${#MESSAGES[@]}))
-          echo "RANDOM_MSG=${MESSAGES[$INDEX]}" >> $GITHUB_ENV
 
-      - name: Update target file
-        run: |
-          echo "- $DATE: $RANDOM_MSG" >> "$TARGET_FILE"
+          git checkout -b "$BRANCH"
+          git config user.name "marco13-moo"
+          git config user.email "210023993+marco13-moo@users.noreply.github.com"
 
-      - name: Commit changes
-        run: |
-          git checkout -b daily-$DATE
-          git config user.name "github-activity-bot"
-          git config user.email "bot@users.noreply.github.com"
-          git add "$TARGET_FILE"
-          git commit -m "Daily update: $RANDOM_MSG"
-          git push origin daily-$DATE
+          COMMIT_COUNT=$((RANDOM % 6 + 1))
+          echo "COMMIT_COUNT=$COMMIT_COUNT" >> "$GITHUB_ENV"
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
 
-      - name: Create PR
+          for ((i=1; i<=COMMIT_COUNT; i++)); do
+            TARGET_FILE=${FILES[$((RANDOM % ${#FILES[@]}))]}
+            MESSAGE=${MESSAGES[$((RANDOM % ${#MESSAGES[@]}))]}
+            touch "$TARGET_FILE"
+            echo "- $(date -u +'%Y-%m-%dT%H:%M:%SZ') [$i/$COMMIT_COUNT]: $MESSAGE" >> "$TARGET_FILE"
+            git add "$TARGET_FILE"
+            git commit -m "$MESSAGE ($i/$COMMIT_COUNT)"
+          done
+
+          git push origin "$BRANCH"
+
+      - name: Create and merge PR
         env:
           GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
         run: |
-          PR_URL=$(gh pr create \
-            --title "Daily update: $RANDOM_MSG" \
-            --body "Automated daily PR for contribution graph.\n\n$RANDOM_MSG" \
-            --base main \
-            --head daily-$DATE)
-          PR_NUMBER=$(basename "$PR_URL")
-          echo "PR_NUMBER=$PR_NUMBER" >> $GITHUB_ENV
+          PR_URL=$(gh pr create             --title "Daily activity: $COMMIT_COUNT updates"             --body "Automated daily activity with $COMMIT_COUNT randomized commits."             --base main             --head "$BRANCH")
+          gh pr merge "$(basename "$PR_URL")" --merge --delete-branch
 
-      - name: Merge PR automatically
+      - name: Create and close issue
         env:
           GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
         run: |
-          gh pr merge $PR_NUMBER --merge --delete-branch
-
-      - name: Create Issue
-        env:
-          GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
-        run: |
-          ISSUE_URL=$(gh issue create \
-            --title "Daily log: $RANDOM_MSG" \
-            --body "Automated issue to simulate daily contributions.\n\n$RANDOM_MSG")
-          ISSUE_NUMBER=$(basename "$ISSUE_URL")
-          echo "ISSUE_NUMBER=$ISSUE_NUMBER" >> $GITHUB_ENV
-
-      - name: Close Issue automatically
-        env:
-          GH_TOKEN: ${{ secrets.GH_ACTIVITY_TOKEN }}
-        run: |
-          gh issue close $ISSUE_NUMBER --comment "Completed automatically."
+          ISSUE_URL=$(gh issue create             --title "Daily activity completed: $COMMIT_COUNT updates"             --body "Completed today's randomized activity run.")
+          gh issue close "$(basename "$ISSUE_URL")" --comment "Completed automatically."
