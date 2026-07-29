@@ -47,3 +47,6 @@
 - 2026-07-13: Added note on limitations
 - 2026-07-20: Added note about edge cases
 - 2026-07-22: Clarified instructions for setup
+- 2026-07-29T19:21:42Z [1/3]: Clarified setup instructions
+- 2026-07-29T19:21:42Z [2/3]: Improved heading structure
+- 2026-07-29T19:21:42Z [3/3]: Updated reference links
