@@ -47,3 +47,4 @@
 - 2026-07-15: Clarified instructions for setup
 - 2026-07-16: Refined wording in tutorial
 - 2026-07-24: Fixed small formatting bugs
+- 2026-07-31T03:30:37Z [5/5]: Added configuration notes
