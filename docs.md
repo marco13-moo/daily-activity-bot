@@ -55,3 +55,4 @@
 - 2026-07-25: Added small sample snippet for clarity
 - 2026-07-28: Improved formatting of bullet lists
 - 2026-07-30T20:18:18Z [1/1]: Added configuration notes
+- 2026-07-31T03:30:37Z [1/5]: Updated reference links
