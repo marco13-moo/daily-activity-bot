@@ -48,3 +48,5 @@
 - 2026-07-16: Refined wording in tutorial
 - 2026-07-24: Fixed small formatting bugs
 - 2026-07-31T03:30:37Z [5/5]: Added configuration notes
+- 2026-08-01T13:53:53Z [1/4]: Updated reference links
+- 2026-08-01T13:53:53Z [3/4]: Added configuration notes
