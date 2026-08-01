@@ -53,3 +53,4 @@
 - 2026-07-31T03:30:37Z [2/5]: Fixed documentation typos
 - 2026-07-31T03:30:37Z [3/5]: Added configuration notes
 - 2026-08-01T13:53:53Z [2/4]: Added configuration notes
+- 2026-08-01T13:53:53Z [4/4]: Clarified setup instructions
