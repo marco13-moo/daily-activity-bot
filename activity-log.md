@@ -49,3 +49,4 @@
 - 2026-07-23: Added usage tip in README
 - 2026-07-26: Added short tip for users
 - 2026-07-27: Updated examples for clarity
+- 2026-08-02T19:31:37Z [2/2]: Improved heading structure
