@@ -51,3 +51,4 @@
 - 2026-07-27: Updated examples for clarity
 - 2026-08-02T19:31:37Z [2/2]: Improved heading structure
 - 2026-08-03T03:35:38Z [1/5]: Added configuration notes
+- 2026-08-03T03:35:38Z [4/5]: Updated reference links
