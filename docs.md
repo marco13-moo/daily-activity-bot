@@ -59,3 +59,4 @@
 - 2026-07-31T03:30:37Z [4/5]: Added configuration notes
 - 2026-08-03T03:35:38Z [3/5]: Added configuration notes
 - 2026-08-04T09:14:18Z [3/6]: Refactored comments for clarity
+- 2026-08-04T09:14:18Z [4/6]: Clarified setup instructions
