@@ -55,3 +55,4 @@
 - 2026-08-04T09:14:18Z [6/6]: Clarified setup instructions
 - 2026-08-08T07:34:10Z [1/5]: Clarified setup instructions
 - 2026-08-08T07:34:10Z [2/5]: Improved heading structure
+- 2026-08-08T07:34:10Z [3/5]: Added configuration notes
