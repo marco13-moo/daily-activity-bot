@@ -65,3 +65,4 @@
 - 2026-08-07T03:32:21Z [2/3]: Updated reference links
 - 2026-08-07T03:32:21Z [3/3]: Improved example formatting
 - 2026-08-08T07:34:10Z [5/5]: Added configuration notes
+- 2026-08-09T13:48:17Z [4/5]: Refactored comments for clarity
