@@ -61,3 +61,5 @@
 - 2026-08-05T14:44:29Z [1/1]: Updated reference links
 - 2026-08-08T07:34:10Z [4/5]: Improved heading structure
 - 2026-08-09T13:48:17Z [1/5]: Updated usage documentation
+- 2026-08-10T13:55:07Z [3/5]: Clarified setup instructions
+- 2026-08-10T13:55:07Z [4/5]: Clarified setup instructions
