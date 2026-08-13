@@ -65,3 +65,4 @@
 - 2026-08-10T13:55:07Z [4/5]: Clarified setup instructions
 - 2026-08-11T07:42:57Z [3/5]: Fixed documentation typos
 - 2026-08-12T02:48:05Z [2/2]: Clarified setup instructions
+- 2026-08-13T19:40:38Z [1/4]: Updated usage documentation
