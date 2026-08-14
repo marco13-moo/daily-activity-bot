@@ -61,3 +61,4 @@
 - 2026-08-10T13:55:07Z [1/5]: Added configuration notes
 - 2026-08-11T07:42:57Z [1/5]: Clarified setup instructions
 - 2026-08-13T19:40:38Z [3/4]: Improved example formatting
+- 2026-08-14T13:48:56Z [2/4]: Updated reference links
