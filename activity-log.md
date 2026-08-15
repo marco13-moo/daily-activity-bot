@@ -63,3 +63,4 @@
 - 2026-08-13T19:40:38Z [3/4]: Improved example formatting
 - 2026-08-14T13:48:56Z [2/4]: Updated reference links
 - 2026-08-15T07:23:45Z [2/3]: Updated usage documentation
+- 2026-08-15T07:23:45Z [3/3]: Clarified setup instructions
