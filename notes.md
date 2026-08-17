@@ -57,3 +57,4 @@
 - 2026-08-13T19:40:38Z [4/4]: Added configuration notes
 - 2026-08-16T01:54:24Z [1/4]: Clarified setup instructions
 - 2026-08-17T19:10:59Z [1/4]: Refactored comments for clarity
+- 2026-08-17T19:10:59Z [4/4]: Updated usage documentation
