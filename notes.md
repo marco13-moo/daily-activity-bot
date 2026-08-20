@@ -62,3 +62,4 @@
 - 2026-08-19T06:57:00Z [2/4]: Fixed documentation typos
 - 2026-08-19T06:57:00Z [3/4]: Refactored comments for clarity
 - 2026-08-20T01:42:34Z [4/6]: Updated reference links
+- 2026-08-20T01:42:34Z [5/6]: Clarified setup instructions
