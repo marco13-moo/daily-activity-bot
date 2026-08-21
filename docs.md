@@ -75,3 +75,4 @@
 - 2026-08-16T01:54:24Z [2/4]: Refactored comments for clarity
 - 2026-08-18T13:31:18Z [2/4]: Refactored comments for clarity
 - 2026-08-20T01:42:34Z [6/6]: Updated usage documentation
+- 2026-08-21T19:00:20Z [2/6]: Clarified setup instructions
