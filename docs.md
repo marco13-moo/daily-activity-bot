@@ -76,3 +76,5 @@
 - 2026-08-18T13:31:18Z [2/4]: Refactored comments for clarity
 - 2026-08-20T01:42:34Z [6/6]: Updated usage documentation
 - 2026-08-21T19:00:20Z [2/6]: Clarified setup instructions
+- 2026-08-22T13:20:15Z [3/5]: Clarified setup instructions
+- 2026-08-22T13:20:15Z [4/5]: Clarified setup instructions
