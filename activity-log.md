@@ -75,3 +75,4 @@
 - 2026-08-21T19:00:20Z [1/6]: Refactored comments for clarity
 - 2026-08-21T19:00:20Z [5/6]: Updated reference links
 - 2026-08-22T13:20:15Z [2/5]: Refactored comments for clarity
+- 2026-08-23T07:24:29Z [2/4]: Updated usage documentation
