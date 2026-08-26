@@ -71,3 +71,4 @@
 - 2026-08-23T07:24:29Z [4/4]: Refactored comments for clarity
 - 2026-08-25T19:03:38Z [2/5]: Improved heading structure
 - 2026-08-25T19:03:38Z [4/5]: Added configuration notes
+- 2026-08-26T13:30:26Z [5/5]: Updated reference links
