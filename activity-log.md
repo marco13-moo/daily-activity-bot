@@ -78,3 +78,4 @@
 - 2026-08-23T07:24:29Z [2/4]: Updated usage documentation
 - 2026-08-24T02:10:59Z [3/5]: Updated reference links
 - 2026-08-24T02:10:59Z [4/5]: Updated usage documentation
+- 2026-08-27T17:28:07Z [1/3]: Added configuration notes
