@@ -80,3 +80,4 @@
 - 2026-08-26T13:30:26Z [2/5]: Improved heading structure
 - 2026-08-26T13:30:26Z [4/5]: Fixed documentation typos
 - 2026-08-28T11:23:54Z [1/3]: Updated usage documentation
+- 2026-08-29T21:01:03Z [2/3]: Added configuration notes
