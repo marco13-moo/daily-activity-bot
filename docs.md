@@ -85,3 +85,5 @@
 - 2026-08-26T13:30:26Z [3/5]: Improved example formatting
 - 2026-08-29T02:08:08Z [1/3]: Improved example formatting
 - 2026-08-31T05:14:29Z [3/3]: Improved example formatting
+- 2026-09-02T21:20:34Z [1/6]: Updated reference links
+- 2026-09-02T21:20:34Z [6/6]: Fixed documentation typos
