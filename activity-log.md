@@ -84,3 +84,4 @@
 - 2026-08-28T11:23:54Z [3/3]: Improved example formatting
 - 2026-08-29T02:08:08Z [3/3]: Improved example formatting
 - 2026-08-30T20:46:06Z [1/1]: Clarified setup instructions
+- 2026-09-02T21:20:34Z [4/6]: Updated reference links
