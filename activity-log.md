@@ -92,3 +92,4 @@
 - 2026-09-04T11:14:05Z [2/6]: Clarified setup instructions
 - 2026-09-04T11:14:05Z [3/6]: Updated usage documentation
 - 2026-09-04T11:14:05Z [4/6]: Updated reference links
+- 2026-09-04T11:14:05Z [5/6]: Updated usage documentation
