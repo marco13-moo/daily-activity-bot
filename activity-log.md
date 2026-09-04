@@ -88,3 +88,8 @@
 - 2026-09-02T21:20:34Z [5/6]: Clarified setup instructions
 - 2026-09-03T04:18:43Z [4/5]: Added configuration notes
 - 2026-09-03T04:18:43Z [5/5]: Improved heading structure
+- 2026-09-04T11:14:05Z [1/6]: Updated usage documentation
+- 2026-09-04T11:14:05Z [2/6]: Clarified setup instructions
+- 2026-09-04T11:14:05Z [3/6]: Updated usage documentation
+- 2026-09-04T11:14:05Z [4/6]: Updated reference links
+- 2026-09-04T11:14:05Z [5/6]: Updated usage documentation

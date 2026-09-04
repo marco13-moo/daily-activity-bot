@@ -88,3 +88,4 @@
 - 2026-09-02T21:20:34Z [2/6]: Improved heading structure
 - 2026-09-02T21:20:34Z [3/6]: Improved example formatting
 - 2026-09-03T04:18:43Z [2/5]: Fixed documentation typos
+- 2026-09-04T11:14:05Z [6/6]: Updated reference links
