@@ -90,3 +90,4 @@
 - 2026-09-03T04:18:43Z [1/5]: Improved example formatting
 - 2026-09-03T04:18:43Z [3/5]: Clarified setup instructions
 - 2026-09-05T15:39:08Z [1/2]: Updated usage documentation
+- 2026-09-06T20:49:46Z [1/4]: Updated reference links
