@@ -92,3 +92,4 @@
 - 2026-09-06T20:49:46Z [4/4]: Clarified setup instructions
 - 2026-09-07T04:28:16Z [2/5]: Improved heading structure
 - 2026-09-09T16:55:12Z [1/1]: Updated reference links
+- 2026-09-11T10:48:06Z [1/2]: Refactored comments for clarity
