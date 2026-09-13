@@ -97,3 +97,4 @@
 - 2026-09-11T10:48:06Z [2/2]: Clarified setup instructions
 - 2026-09-12T04:26:50Z [2/3]: Updated usage documentation
 - 2026-09-13T20:35:36Z [1/5]: Added configuration notes
+- 2026-09-13T20:35:36Z [3/5]: Refactored comments for clarity
