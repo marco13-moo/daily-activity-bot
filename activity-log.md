@@ -100,3 +100,4 @@
 - 2026-09-13T20:35:36Z [3/5]: Refactored comments for clarity
 - 2026-09-13T20:35:36Z [4/5]: Fixed documentation typos
 - 2026-09-13T20:35:36Z [5/5]: Improved example formatting
+- 2026-09-14T18:15:58Z [2/6]: Updated usage documentation
