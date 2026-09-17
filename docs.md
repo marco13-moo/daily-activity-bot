@@ -98,3 +98,5 @@
 - 2026-09-14T18:15:58Z [5/6]: Fixed documentation typos
 - 2026-09-14T18:15:58Z [6/6]: Improved heading structure
 - 2026-09-16T04:21:53Z [2/5]: Added configuration notes
+- 2026-09-17T21:39:06Z [1/3]: Added configuration notes
+- 2026-09-17T21:39:06Z [3/3]: Fixed documentation typos
