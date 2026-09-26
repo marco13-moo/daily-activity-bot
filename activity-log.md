@@ -110,3 +110,4 @@
 - 2026-09-23T10:56:20Z [1/4]: Refactored comments for clarity
 - 2026-09-24T04:33:39Z [2/2]: Fixed documentation typos
 - 2026-09-25T21:26:16Z [2/3]: Improved heading structure
+- 2026-09-26T16:53:59Z [1/3]: Clarified setup instructions
