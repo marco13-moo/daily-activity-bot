@@ -90,3 +90,4 @@
 - 2026-09-23T10:56:20Z [3/4]: Fixed documentation typos
 - 2026-09-23T10:56:20Z [4/4]: Refactored comments for clarity
 - 2026-09-25T21:26:16Z [3/3]: Updated usage documentation
+- 2026-09-27T11:43:03Z [1/5]: Updated reference links
