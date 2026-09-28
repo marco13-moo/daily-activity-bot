@@ -92,3 +92,5 @@
 - 2026-09-25T21:26:16Z [3/3]: Updated usage documentation
 - 2026-09-27T11:43:03Z [1/5]: Updated reference links
 - 2026-09-27T11:43:03Z [3/5]: Refactored comments for clarity
+- 2026-09-28T04:39:41Z [1/5]: Clarified setup instructions
+- 2026-09-28T04:39:41Z [3/5]: Refactored comments for clarity
