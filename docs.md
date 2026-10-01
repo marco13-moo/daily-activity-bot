@@ -113,3 +113,4 @@
 - 2026-09-27T11:43:03Z [5/5]: Improved example formatting
 - 2026-09-28T04:39:41Z [4/5]: Refactored comments for clarity
 - 2026-09-30T22:37:25Z [1/2]: Refactored comments for clarity
+- 2026-10-01T22:28:35Z [1/4]: Clarified setup instructions
