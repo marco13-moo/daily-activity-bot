@@ -96,3 +96,4 @@
 - 2026-09-28T04:39:41Z [3/5]: Refactored comments for clarity
 - 2026-09-29T22:41:19Z [1/1]: Clarified setup instructions
 - 2026-09-30T22:37:25Z [2/2]: Improved example formatting
+- 2026-10-01T22:28:35Z [4/4]: Updated usage documentation
