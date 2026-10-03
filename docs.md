@@ -115,3 +115,5 @@
 - 2026-09-30T22:37:25Z [1/2]: Refactored comments for clarity
 - 2026-10-01T22:28:35Z [1/4]: Clarified setup instructions
 - 2026-10-01T22:28:35Z [3/4]: Added configuration notes
+- 2026-10-03T11:52:52Z [2/6]: Updated usage documentation
+- 2026-10-03T11:52:52Z [5/6]: Refactored comments for clarity
