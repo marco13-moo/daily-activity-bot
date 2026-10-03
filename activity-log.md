@@ -114,3 +114,4 @@
 - 2026-09-26T16:53:59Z [2/3]: Updated usage documentation
 - 2026-09-28T04:39:41Z [2/5]: Refactored comments for clarity
 - 2026-10-02T17:47:56Z [3/3]: Updated reference links
+- 2026-10-03T11:52:52Z [1/6]: Clarified setup instructions
