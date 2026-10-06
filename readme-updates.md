@@ -113,3 +113,4 @@
 - 2026-10-03T11:52:52Z [3/6]: Added configuration notes
 - 2026-10-06T00:05:43Z [3/6]: Fixed documentation typos
 - 2026-10-06T00:05:43Z [4/6]: Clarified setup instructions
+- 2026-10-06T18:19:52Z [5/6]: Updated reference links
