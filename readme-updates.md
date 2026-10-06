@@ -112,3 +112,4 @@
 - 2026-10-02T17:47:56Z [2/3]: Fixed documentation typos
 - 2026-10-03T11:52:52Z [3/6]: Added configuration notes
 - 2026-10-06T00:05:43Z [3/6]: Fixed documentation typos
+- 2026-10-06T00:05:43Z [4/6]: Clarified setup instructions
