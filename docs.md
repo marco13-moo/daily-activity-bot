@@ -120,3 +120,4 @@
 - 2026-10-04T05:11:08Z [1/1]: Improved example formatting
 - 2026-10-06T18:19:52Z [1/6]: Clarified setup instructions
 - 2026-10-07T12:58:31Z [2/2]: Improved example formatting
+- 2026-10-08T05:50:19Z [1/1]: Updated reference links
