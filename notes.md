@@ -103,3 +103,4 @@
 - 2026-10-06T18:19:52Z [2/6]: Clarified setup instructions
 - 2026-10-06T18:19:52Z [4/6]: Updated reference links
 - 2026-10-06T18:19:52Z [6/6]: Improved heading structure
+- 2026-10-10T21:44:28Z [1/3]: Clarified setup instructions
