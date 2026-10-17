@@ -129,3 +129,4 @@
 - 2026-10-17T16:07:33Z [1/6]: Added configuration notes
 - 2026-10-17T16:07:33Z [2/6]: Clarified setup instructions
 - 2026-10-17T16:07:33Z [4/6]: Clarified setup instructions
+- 2026-10-17T16:07:33Z [5/6]: Added configuration notes
