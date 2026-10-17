@@ -126,3 +126,7 @@
 - 2026-10-14T21:46:49Z [3/6]: Updated reference links
 - 2026-10-15T04:29:30Z [3/3]: Refactored comments for clarity
 - 2026-10-16T11:14:48Z [3/3]: Improved example formatting
+- 2026-10-17T16:07:33Z [1/6]: Added configuration notes
+- 2026-10-17T16:07:33Z [2/6]: Clarified setup instructions
+- 2026-10-17T16:07:33Z [4/6]: Clarified setup instructions
+- 2026-10-17T16:07:33Z [5/6]: Added configuration notes
