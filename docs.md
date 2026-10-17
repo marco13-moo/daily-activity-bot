@@ -128,3 +128,4 @@
 - 2026-10-16T11:14:48Z [3/3]: Improved example formatting
 - 2026-10-17T16:07:33Z [1/6]: Added configuration notes
 - 2026-10-17T16:07:33Z [2/6]: Clarified setup instructions
+- 2026-10-17T16:07:33Z [4/6]: Clarified setup instructions
