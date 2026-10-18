@@ -109,3 +109,4 @@
 - 2026-10-13T19:25:51Z [1/1]: Updated usage documentation
 - 2026-10-14T21:46:48Z [1/6]: Refactored comments for clarity
 - 2026-10-17T16:07:33Z [6/6]: Updated reference links
+- 2026-10-18T20:41:47Z [2/2]: Added configuration notes
