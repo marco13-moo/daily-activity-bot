@@ -126,3 +126,4 @@
 - 2026-10-14T21:46:49Z [6/6]: Fixed documentation typos
 - 2026-10-16T11:14:48Z [2/3]: Fixed documentation typos
 - 2026-10-18T20:41:47Z [1/2]: Improved heading structure
+- 2026-10-21T17:07:39Z [1/1]: Improved example formatting
