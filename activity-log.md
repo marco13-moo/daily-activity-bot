@@ -130,3 +130,4 @@
 - 2026-10-17T16:07:33Z [3/6]: Updated usage documentation
 - 2026-10-20T11:44:48Z [1/2]: Updated reference links
 - 2026-10-24T10:28:29Z [2/3]: Added configuration notes
+- 2026-10-25T16:31:51Z [2/5]: Updated usage documentation
