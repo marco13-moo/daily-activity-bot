@@ -121,3 +121,4 @@
 - 2026-10-26T22:52:12Z [2/4]: Updated usage documentation
 - 2026-10-26T22:52:12Z [3/4]: Updated usage documentation
 - 2026-10-28T12:52:16Z [1/6]: Added configuration notes
+- 2026-10-28T12:52:16Z [2/6]: Clarified setup instructions
