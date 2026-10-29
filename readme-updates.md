@@ -132,3 +132,4 @@
 - 2026-10-27T05:03:06Z [5/5]: Updated reference links
 - 2026-10-28T12:52:16Z [4/6]: Added configuration notes
 - 2026-10-28T12:52:16Z [6/6]: Updated usage documentation
+- 2026-10-29T18:26:57Z [2/5]: Refactored comments for clarity
