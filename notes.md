@@ -126,3 +126,4 @@
 - 2026-10-29T18:26:57Z [3/5]: Refactored comments for clarity
 - 2026-10-30T18:28:26Z [3/6]: Clarified setup instructions
 - 2026-10-31T11:53:00Z [2/6]: Improved heading structure
+- 2026-10-31T11:53:00Z [3/6]: Updated reference links
