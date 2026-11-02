@@ -136,3 +136,4 @@
 - 2026-10-30T18:28:26Z [4/6]: Improved example formatting
 - 2026-11-01T22:21:08Z [2/4]: Improved heading structure
 - 2026-11-02T21:57:58Z [2/4]: Improved heading structure
+- 2026-11-02T21:57:58Z [4/4]: Refactored comments for clarity
