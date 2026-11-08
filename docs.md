@@ -151,3 +151,4 @@
 - 2026-11-06T19:57:33Z [2/6]: Improved example formatting
 - 2026-11-07T13:07:49Z [4/4]: Improved example formatting
 - 2026-11-08T06:07:07Z [2/4]: Clarified setup instructions
+- 2026-11-08T06:07:07Z [4/4]: Added configuration notes
