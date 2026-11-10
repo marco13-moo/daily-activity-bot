@@ -143,3 +143,5 @@
 - 2026-11-06T19:57:33Z [1/6]: Added configuration notes
 - 2026-11-06T19:57:33Z [5/6]: Refactored comments for clarity
 - 2026-11-10T01:58:32Z [1/2]: Added configuration notes
+- 2026-11-10T23:39:30Z [4/6]: Updated reference links
+- 2026-11-10T23:39:30Z [6/6]: Updated usage documentation
