@@ -138,3 +138,4 @@
 - 2026-11-10T23:39:30Z [3/6]: Updated reference links
 - 2026-11-11T06:13:44Z [2/5]: Clarified setup instructions
 - 2026-11-11T06:13:44Z [5/5]: Clarified setup instructions
+- 2026-11-13T20:03:29Z [1/3]: Clarified setup instructions
