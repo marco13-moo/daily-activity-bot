@@ -158,3 +158,4 @@
 - 2026-11-14T22:38:10Z [2/5]: Fixed documentation typos
 - 2026-11-14T22:38:10Z [5/5]: Updated reference links
 - 2026-11-15T05:57:21Z [1/3]: Updated usage documentation
+- 2026-11-16T15:43:10Z [4/6]: Clarified setup instructions
