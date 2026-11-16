@@ -149,3 +149,4 @@
 - 2026-11-11T06:13:44Z [4/5]: Improved heading structure
 - 2026-11-13T20:03:29Z [3/3]: Fixed documentation typos
 - 2026-11-16T15:43:10Z [1/6]: Updated usage documentation
+- 2026-11-16T15:43:10Z [5/6]: Improved example formatting
