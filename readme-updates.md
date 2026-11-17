@@ -152,3 +152,5 @@
 - 2026-11-15T05:57:21Z [3/3]: Improved example formatting
 - 2026-11-16T15:43:10Z [2/6]: Improved example formatting
 - 2026-11-16T15:43:10Z [6/6]: Refactored comments for clarity
+- 2026-11-17T21:03:03Z [1/5]: Added configuration notes
+- 2026-11-17T21:03:03Z [3/5]: Updated usage documentation
