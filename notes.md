@@ -145,3 +145,4 @@
 - 2026-11-16T15:43:10Z [3/6]: Added configuration notes
 - 2026-11-17T21:03:03Z [2/5]: Fixed documentation typos
 - 2026-11-17T21:03:03Z [5/5]: Improved heading structure
+- 2026-11-20T15:34:19Z [3/3]: Improved example formatting
