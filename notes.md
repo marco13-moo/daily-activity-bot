@@ -148,3 +148,4 @@
 - 2026-11-20T15:34:19Z [3/3]: Improved example formatting
 - 2026-11-21T19:31:34Z [2/4]: Fixed documentation typos
 - 2026-11-21T19:31:34Z [3/4]: Improved example formatting
+- 2026-11-21T19:31:34Z [4/4]: Added configuration notes
