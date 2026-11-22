@@ -152,3 +152,4 @@
 - 2026-11-16T15:43:10Z [5/6]: Improved example formatting
 - 2026-11-18T00:56:12Z [2/2]: Improved heading structure
 - 2026-11-20T15:34:19Z [2/3]: Updated usage documentation
+- 2026-11-22T23:41:16Z [2/6]: Updated reference links
