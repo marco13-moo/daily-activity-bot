@@ -159,3 +159,4 @@
 - 2026-11-20T15:34:19Z [1/3]: Added configuration notes
 - 2026-11-22T23:41:16Z [1/6]: Updated usage documentation
 - 2026-11-22T23:41:16Z [5/6]: Improved example formatting
+- 2026-11-23T07:24:21Z [6/6]: Clarified setup instructions
