@@ -155,3 +155,5 @@
 - 2026-11-22T23:41:16Z [2/6]: Updated reference links
 - 2026-11-22T23:41:16Z [6/6]: Refactored comments for clarity
 - 2026-11-23T07:24:21Z [2/6]: Updated reference links
+- 2026-11-24T17:31:02Z [1/5]: Added configuration notes
+- 2026-11-24T17:31:02Z [3/5]: Fixed documentation typos
