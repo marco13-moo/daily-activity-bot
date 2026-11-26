@@ -157,3 +157,4 @@
 - 2026-11-23T07:24:21Z [2/6]: Updated reference links
 - 2026-11-24T17:31:02Z [1/5]: Added configuration notes
 - 2026-11-24T17:31:02Z [3/5]: Fixed documentation typos
+- 2026-11-26T01:52:04Z [2/3]: Improved example formatting
