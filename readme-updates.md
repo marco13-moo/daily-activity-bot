@@ -165,3 +165,4 @@
 - 2026-11-25T21:36:51Z [2/2]: Added configuration notes
 - 2026-11-26T01:52:04Z [1/3]: Refactored comments for clarity
 - 2026-11-27T07:52:36Z [1/1]: Improved heading structure
+- 2026-11-28T15:18:48Z [2/5]: Updated reference links
